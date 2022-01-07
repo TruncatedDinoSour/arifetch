@@ -109,7 +109,7 @@ inline std::string get_shell(void) {
 }
 
 int main(void) {
-    uint64_t art_idx = 0; // TODO: Somehow merge info and art
+    size_t art_idx = 0; // TODO: Somehow merge info and art
     char *art_line;
 
     const std::map<const char *, std::function<std::string(void)>> info = {

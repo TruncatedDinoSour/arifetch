@@ -1,3 +1,4 @@
 *.elf
 !.clang-format
+.ccls-cache/
 
